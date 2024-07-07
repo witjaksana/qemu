@@ -4,4 +4,4 @@ rm -rf build/
   --disable-curl --disable-kvm --disable-bsd-user --disable-coroutine-pool \
   --disable-attr --disable-docs --disable-spice --disable-usb-redir --disable-guest-agent \
   --disable-cap-ng --disable-libiscsi --disable-libusb --disable-werror --disable-auth-pam --disable-tools
-make -C build
+make -C build -j8
